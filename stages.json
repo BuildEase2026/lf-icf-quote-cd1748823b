@@ -1,0 +1,58 @@
+{
+ "job": "Langley Lane Farm, Langley Lane, Middleton M24 5LJ",
+ "revision": "",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Footing course and ground floor",
+   "desc": "One course of 8in Standard on the footing in each floor zone (lower zone 124.40: kitchen / dining / snug; upper zone 125.00: all other rooms) and the block and beam ground floor bearing on it, with insulation and screed (indicative).",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 240152
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Ground floor ICF walls and partitions",
+   "desc": "The 6in XR35 ground-floor walls to the underside of the wall plate (127.741), with the structural glazing, sliding doors, windows and doors (alu-clad, indicative) openings, and the internal blockwork and stud partitions (indicative).",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1287096
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Gables, chimney stack and vault upstands",
+   "desc": "The west and south-east gables raked to the 35 degree roof, the chimney stack carried up to 130.941 over the flue (the part inside the gable on a steel frame - engineer), and the north-east walls that sit back from the eaves line raised to the underside of the vaulted roof.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 292992
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Vaulted roof, oak trusses and steels",
+   "desc": "The vaulted roof structure (C24 rafters @ 400 on steel ridges, hips, valley and purlins), the arched oak trusses A1-A3 and the posts, all indicative - engineer / oak frame supplier to design. Rafters trimmed round the chimney stack.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 143532
+    }
+   ]
+  }
+ ]
+}

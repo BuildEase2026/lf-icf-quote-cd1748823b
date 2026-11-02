@@ -1,0 +1,340 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "Ethos Property Development",
+  "job": "Langley Lane Farm, Langley Lane, Middleton M24 5LJ",
+  "number_prefix": "ES26-063",
+  "status": "QUOTATION",
+  "revision": "",
+  "model_title": "ES26-063 Langley Lane Farm, Langley Lane, Middleton M24 5LJ - Quotation"
+ },
+ "default_view": "stage-4",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Footing course and ground floor",
+   "desc": "One course of 8in Standard on the footing in each floor zone (lower zone 124.40: kitchen / dining / snug; upper zone 125.00: all other rooms) and the block and beam ground floor bearing on it, with insulation and screed (indicative).",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "Ground floor ICF walls and partitions",
+   "desc": "The 6in XR35 ground-floor walls to the underside of the wall plate (127.741), with the structural glazing, sliding doors, windows and doors (alu-clad, indicative) openings, and the internal blockwork and stud partitions (indicative).",
+   "focus": false
+  },
+  {
+   "id": "stage-3",
+   "kind": "stage",
+   "n": 3,
+   "title": "Gables, chimney stack and vault upstands",
+   "desc": "The west and south-east gables raked to the 35 degree roof, the chimney stack carried up to 130.941 over the flue (the part inside the gable on a steel frame - engineer), and the north-east walls that sit back from the eaves line raised to the underside of the vaulted roof.",
+   "focus": false
+  },
+  {
+   "id": "stage-4",
+   "kind": "stage",
+   "n": 4,
+   "title": "Vaulted roof, oak trusses and steels",
+   "desc": "The vaulted roof structure (C24 rafters @ 400 on steel ridges, hips, valley and purlins), the arched oak trusses A1-A3 and the posts, all indicative - engineer / oak frame supplier to design. Rafters trimmed round the chimney stack.",
+   "focus": false
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 4,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 4,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 4,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 4,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Footing course and ground floor",
+   "desc": "One course of 8in Standard on the footing in each floor zone (lower zone 124.40: kitchen / dining / snug; upper zone 125.00: all other rooms) and the block and beam ground floor bearing on it, with insulation and screed (indicative).",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 240152
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Ground floor ICF walls and partitions",
+   "desc": "The 6in XR35 ground-floor walls to the underside of the wall plate (127.741), with the structural glazing, sliding doors, windows and doors (alu-clad, indicative) openings, and the internal blockwork and stud partitions (indicative).",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 1287096
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Gables, chimney stack and vault upstands",
+   "desc": "The west and south-east gables raked to the 35 degree roof, the chimney stack carried up to 130.941 over the flue (the part inside the gable on a steel frame - engineer), and the north-east walls that sit back from the eaves line raised to the underside of the vaulted roof.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 292992
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Vaulted roof, oak trusses and steels",
+   "desc": "The vaulted roof structure (C24 rafters @ 400 on steel ridges, hips, valley and purlins), the arched oak trusses A1-A3 and the posts, all indicative - engineer / oak frame supplier to design. Rafters trimmed round the chimney stack.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 143532
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "quote",
+   "title": "Quotation",
+   "note": "The Nudura proposal Rev A (NET GBP 24,103.56: materials, pre-cut, alignment hire, haulage 3 artics), the artic load plans and the pallet stack sheets.",
+   "zip": {
+    "file": "downloads/ES26-063 Quotation.zip",
+    "bytes": 1170063,
+    "count": 4
+   },
+   "docs": [
+    {
+     "id": "ES26-063-LP-01",
+     "title": "Artic load plans - 3 loads in 2 deliveries",
+     "file": "docs/quote/ES26-063-LP-01 Artic load plans - 3 loads in 2 deliveries.pdf",
+     "pages": 3,
+     "thumb": "thumbs/ES26-063-LP-01.png",
+     "bytes": 35773,
+     "number": "ES26-063-LP-01",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-PR-01",
+     "title": "Quotation Rev A - Nudura ICF supply",
+     "file": "docs/quote/ES26-063-PR-01 Quotation Rev A - Nudura ICF supply.pdf",
+     "pages": 4,
+     "thumb": "thumbs/ES26-063-PR-01.png",
+     "bytes": 380587,
+     "number": "ES26-063-PR-01",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-PS-01",
+     "title": "Pallet stack sheets - 17 pallets",
+     "file": "docs/quote/ES26-063-PS-01 Pallet stack sheets - 17 pallets.pdf",
+     "pages": 17,
+     "thumb": "thumbs/ES26-063-PS-01.png",
+     "bytes": 329028,
+     "number": "ES26-063-PS-01",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-XI-01",
+     "title": "BOQ package - ICF, programme and finishes (Excel)",
+     "file": "downloads/ES26-063 BOQ Package.xlsx",
+     "pages": 24,
+     "thumb": "thumbs/ES26-063-XI-01.png",
+     "bytes": 1308228,
+     "number": "ES26-063-XI-01",
+     "kind": "xlsx",
+     "preview": "xls/boq.html",
+     "tabs": 24,
+     "subtitle": "Excel workbook - live preview, enter rates"
+    }
+   ]
+  },
+  {
+   "id": "icf",
+   "title": "ICF drawings",
+   "note": "ICF general arrangements (footing course, ground floor, gables and chimney), elevations and a section.",
+   "zip": {
+    "file": "downloads/ES26-063 ICF drawings.zip",
+    "bytes": 777079,
+    "count": 7
+   },
+   "docs": [
+    {
+     "id": "ES26-063-GA-01",
+     "title": "FB lower zone - 8in Std footing course ICF General Arrangement",
+     "file": "docs/icf/ES26-063-GA-01 FB lower zone - 8in Std footing course ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-GA-01.png",
+     "bytes": 58723,
+     "number": "ES26-063-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-GA-02",
+     "title": "FB upper zone - 8in Std footing course ICF General Arrangement",
+     "file": "docs/icf/ES26-063-GA-02 FB upper zone - 8in Std footing course ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-GA-02.png",
+     "bytes": 64607,
+     "number": "ES26-063-GA-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-GA-03",
+     "title": "L1 Ground floor walls - XR35 ICF General Arrangement",
+     "file": "docs/icf/ES26-063-GA-03 L1 Ground floor walls - XR35 ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-GA-03.png",
+     "bytes": 93894,
+     "number": "ES26-063-GA-03",
+     "view": "stage-3",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-GA-04",
+     "title": "L2 Gables - XR35 ICF General Arrangement",
+     "file": "docs/icf/ES26-063-GA-04 L2 Gables - XR35 ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-GA-04.png",
+     "bytes": 80495,
+     "number": "ES26-063-GA-04",
+     "view": "stage-3",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-EL-01",
+     "title": "North and South Elevations",
+     "file": "docs/icf/ES26-063-EL-01 North and South Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-EL-01.png",
+     "bytes": 320006,
+     "number": "ES26-063-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-EL-02",
+     "title": "East and West Elevations",
+     "file": "docs/icf/ES26-063-EL-02 East and West Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-EL-02.png",
+     "bytes": 274378,
+     "number": "ES26-063-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-SE-01",
+     "title": "Section A-A",
+     "file": "docs/icf/ES26-063-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-SE-01.png",
+     "bytes": 70888,
+     "number": "ES26-063-SE-01",
+     "view": "stage-4",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "timber",
+   "title": "Roof and floor structure",
+   "note": "The vaulted roof structure, oak trusses and steels, and the block and beam ground floor (coordination only).",
+   "zip": {
+    "file": "downloads/ES26-063 Roof and floor structure.zip",
+    "bytes": 127284,
+    "count": 2
+   },
+   "docs": [
+    {
+     "id": "ES26-063-FL-01",
+     "title": "Ground Floor Structure",
+     "file": "docs/timber/ES26-063-FL-01 Ground Floor Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-FL-01.png",
+     "bytes": 68978,
+     "number": "ES26-063-FL-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-RF-01",
+     "title": "Vaulted Roof Structure",
+     "file": "docs/timber/ES26-063-RF-01 Vaulted Roof Structure.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-RF-01.png",
+     "bytes": 89546,
+     "number": "ES26-063-RF-01",
+     "view": "stage-4",
+     "view_opts": {}
+    }
+   ]
+  }
+ ],
+ "focus": null,
+ "isolate_stages": false,
+ "toggles": [],
+ "download_all": {
+  "file": "downloads/ES26-063 Langley Lane Farm, Langley Lane, Middleton M24 5LJ - Quotation.zip",
+  "bytes": 2074486,
+  "count": 13,
+  "title": "Download everything"
+ }
+}
