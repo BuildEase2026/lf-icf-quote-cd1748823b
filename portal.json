@@ -149,20 +149,20 @@
   {
    "id": "quote",
    "title": "Quotation",
-   "note": "The Nudura proposal Rev A (NET GBP 24,103.56: materials, pre-cut, alignment hire, haulage 3 artics), the artic load plans and the pallet stack sheets.",
+   "note": "The Nudura proposal Rev A (NET GBP 24,103.56: materials, pre-cut, alignment hire, haulage 3 x 18 t rigid wagons, estimate), the rigid wagon load plans and the pallet stack sheets.",
    "zip": {
     "file": "downloads/ES26-063 Quotation.zip",
-    "bytes": 1170063,
+    "bytes": 1170492,
     "count": 4
    },
    "docs": [
     {
      "id": "ES26-063-LP-01",
-     "title": "Artic load plans - 3 loads in 2 deliveries",
-     "file": "docs/quote/ES26-063-LP-01 Artic load plans - 3 loads in 2 deliveries.pdf",
+     "title": "Rigid wagon load plans - 3 loads in 2 deliveries",
+     "file": "docs/quote/ES26-063-LP-01 Rigid wagon load plans - 3 loads in 2 deliveries.pdf",
      "pages": 3,
      "thumb": "thumbs/ES26-063-LP-01.png",
-     "bytes": 35773,
+     "bytes": 35620,
      "number": "ES26-063-LP-01",
      "view": "stage-4",
      "view_opts": {}
@@ -173,7 +173,7 @@
      "file": "docs/quote/ES26-063-PR-01 Quotation Rev A - Nudura ICF supply.pdf",
      "pages": 4,
      "thumb": "thumbs/ES26-063-PR-01.png",
-     "bytes": 380587,
+     "bytes": 380957,
      "number": "ES26-063-PR-01",
      "view": "stage-4",
      "view_opts": {}
@@ -195,7 +195,7 @@
      "file": "downloads/ES26-063 BOQ Package.xlsx",
      "pages": 24,
      "thumb": "thumbs/ES26-063-XI-01.png",
-     "bytes": 1308228,
+     "bytes": 1308313,
      "number": "ES26-063-XI-01",
      "kind": "xlsx",
      "preview": "xls/boq.html",
@@ -207,11 +207,11 @@
   {
    "id": "icf",
    "title": "ICF drawings",
-   "note": "ICF general arrangements (footing course, ground floor, gables and chimney), elevations and a section.",
+   "note": "ICF general arrangements (footing course, ground floor, gables and chimney), elevations, a section and the construction details (openings, thresholds, bearings, eaves, verge, upstand, chimney stack).",
    "zip": {
     "file": "downloads/ES26-063 ICF drawings.zip",
-    "bytes": 777079,
-    "count": 7
+    "bytes": 1343180,
+    "count": 13
    },
    "docs": [
     {
@@ -290,6 +290,72 @@
      "number": "ES26-063-SE-01",
      "view": "stage-4",
      "view_opts": {}
+    },
+    {
+     "id": "ES26-063-DT-01",
+     "title": "Opening Details - Jamb, Head and Cill",
+     "file": "docs/icf/ES26-063-DT-01 Opening Details - Jamb, Head and Cill.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-DT-01.png",
+     "bytes": 110713,
+     "number": "ES26-063-DT-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-DT-02",
+     "title": "Threshold Details - Lift-and-Slide and Entrance Door",
+     "file": "docs/icf/ES26-063-DT-02 Threshold Details - Lift-and-Slide and Entrance Door.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-DT-02.png",
+     "bytes": 131365,
+     "number": "ES26-063-DT-02",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-DT-03",
+     "title": "Footing Course and Block-and-Beam Bearings",
+     "file": "docs/icf/ES26-063-DT-03 Footing Course and Block-and-Beam Bearings.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-DT-03.png",
+     "bytes": 132084,
+     "number": "ES26-063-DT-03",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-DT-04",
+     "title": "Eaves Detail - Wall Plate on the ICF Core",
+     "file": "docs/icf/ES26-063-DT-04 Eaves Detail - Wall Plate on the ICF Core.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-DT-04.png",
+     "bytes": 102124,
+     "number": "ES26-063-DT-04",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-DT-05",
+     "title": "Gable Verge and Vault Upstand",
+     "file": "docs/icf/ES26-063-DT-05 Gable Verge and Vault Upstand.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-DT-05.png",
+     "bytes": 106544,
+     "number": "ES26-063-DT-05",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "ES26-063-DT-06",
+     "title": "Chimney Stack Through the Roof",
+     "file": "docs/icf/ES26-063-DT-06 Chimney Stack Through the Roof.pdf",
+     "pages": 1,
+     "thumb": "thumbs/ES26-063-DT-06.png",
+     "bytes": 130968,
+     "number": "ES26-063-DT-06",
+     "view": "stage-2",
+     "view_opts": {}
     }
    ]
   },
@@ -333,8 +399,8 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/ES26-063 Langley Lane Farm, Langley Lane, Middleton M24 5LJ - Quotation.zip",
-  "bytes": 2074486,
-  "count": 13,
+  "bytes": 2641064,
+  "count": 19,
   "title": "Download everything"
  }
 }
