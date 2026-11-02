@@ -149,11 +149,11 @@
   {
    "id": "quote",
    "title": "Quotation",
-   "note": "The Nudura proposal Rev A (NET GBP 24,103.56: materials, pre-cut, alignment hire, haulage 3 x 18 t rigid wagons, estimate), the rigid wagon load plans and the pallet stack sheets.",
+   "note": "The Distributor Bill of Materials (Nudura Proposal Generator distributor format: every form and accessory by level with your rate card - no material prices from us; BuildEase pre-cut service and pre-cut delivery (2 rigid loads, estimate) as fixed charges; alignment by the distributor), the pallet stack sheets and the rigid wagon load plans.",
    "zip": {
     "file": "downloads/ES26-063 Quotation.zip",
-    "bytes": 1170492,
-    "count": 4
+    "bytes": 473222,
+    "count": 3
    },
    "docs": [
     {
@@ -164,17 +164,6 @@
      "thumb": "thumbs/ES26-063-LP-01.png",
      "bytes": 35620,
      "number": "ES26-063-LP-01",
-     "view": "stage-4",
-     "view_opts": {}
-    },
-    {
-     "id": "ES26-063-PR-01",
-     "title": "Quotation Rev A - Nudura ICF supply",
-     "file": "docs/quote/ES26-063-PR-01 Quotation Rev A - Nudura ICF supply.pdf",
-     "pages": 4,
-     "thumb": "thumbs/ES26-063-PR-01.png",
-     "bytes": 380957,
-     "number": "ES26-063-PR-01",
      "view": "stage-4",
      "view_opts": {}
     },
@@ -190,17 +179,23 @@
      "view_opts": {}
     },
     {
-     "id": "ES26-063-XI-01",
-     "title": "BOQ package - ICF, programme and finishes (Excel)",
-     "file": "downloads/ES26-063 BOQ Package.xlsx",
-     "pages": 24,
-     "thumb": "thumbs/ES26-063-XI-01.png",
-     "bytes": 1308313,
-     "number": "ES26-063-XI-01",
+     "id": "ES26-063-QS-01",
+     "title": "Distributor BOM - Nudura ICF kit with your rate card (Excel)",
+     "file": "downloads/ES26-063 Distributor BOM - Langley Lane Farm, Middleton.xlsx",
+     "pages": 7,
+     "thumb": "thumbs/ES26-063-QS-01.png",
+     "bytes": 287316,
+     "number": "ES26-063-QS-01",
      "kind": "xlsx",
-     "preview": "xls/boq.html",
-     "tabs": 24,
-     "subtitle": "Excel workbook - live preview, enter rates"
+     "preview": "xls/bom.html",
+     "tabs": 7,
+     "subtitle": "Excel workbook - live preview, enter your sale rates"
+    }
+   ],
+   "downloads": [
+    {
+     "file": "downloads/ES26-063 Distributor BOM - Langley Lane Farm, Middleton.xlsx",
+     "title": "Distributor BOM (Excel - enter your rates in the yellow cells; the totals and order form update) (0.1 MB)"
     }
    ]
   },
@@ -210,7 +205,7 @@
    "note": "ICF general arrangements (footing course, ground floor, gables and chimney), elevations, a section and the construction details (openings, thresholds, bearings, eaves, verge, upstand, chimney stack).",
    "zip": {
     "file": "downloads/ES26-063 ICF drawings.zip",
-    "bytes": 1343180,
+    "bytes": 1343461,
     "count": 13
    },
    "docs": [
@@ -220,7 +215,7 @@
      "file": "docs/icf/ES26-063-GA-01 FB lower zone - 8in Std footing course ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-GA-01.png",
-     "bytes": 58723,
+     "bytes": 58760,
      "number": "ES26-063-GA-01",
      "view": "stage-1",
      "view_opts": {}
@@ -231,7 +226,7 @@
      "file": "docs/icf/ES26-063-GA-02 FB upper zone - 8in Std footing course ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-GA-02.png",
-     "bytes": 64607,
+     "bytes": 64639,
      "number": "ES26-063-GA-02",
      "view": "stage-2",
      "view_opts": {}
@@ -242,7 +237,7 @@
      "file": "docs/icf/ES26-063-GA-03 L1 Ground floor walls - XR35 ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-GA-03.png",
-     "bytes": 93894,
+     "bytes": 93939,
      "number": "ES26-063-GA-03",
      "view": "stage-3",
      "view_opts": {}
@@ -253,7 +248,7 @@
      "file": "docs/icf/ES26-063-GA-04 L2 Gables - XR35 ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-GA-04.png",
-     "bytes": 80495,
+     "bytes": 80535,
      "number": "ES26-063-GA-04",
      "view": "stage-3",
      "view_opts": {}
@@ -264,7 +259,7 @@
      "file": "docs/icf/ES26-063-EL-01 North and South Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-EL-01.png",
-     "bytes": 320006,
+     "bytes": 320041,
      "number": "ES26-063-EL-01",
      "view": "elev-N",
      "view_opts": {}
@@ -275,7 +270,7 @@
      "file": "docs/icf/ES26-063-EL-02 East and West Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-EL-02.png",
-     "bytes": 274378,
+     "bytes": 274426,
      "number": "ES26-063-EL-02",
      "view": "elev-E",
      "view_opts": {}
@@ -286,7 +281,7 @@
      "file": "docs/icf/ES26-063-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-SE-01.png",
-     "bytes": 70888,
+     "bytes": 70930,
      "number": "ES26-063-SE-01",
      "view": "stage-4",
      "view_opts": {}
@@ -297,7 +292,7 @@
      "file": "docs/icf/ES26-063-DT-01 Opening Details - Jamb, Head and Cill.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-DT-01.png",
-     "bytes": 110713,
+     "bytes": 110723,
      "number": "ES26-063-DT-01",
      "view": "stage-2",
      "view_opts": {}
@@ -308,7 +303,7 @@
      "file": "docs/icf/ES26-063-DT-02 Threshold Details - Lift-and-Slide and Entrance Door.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-DT-02.png",
-     "bytes": 131365,
+     "bytes": 131375,
      "number": "ES26-063-DT-02",
      "view": "stage-2",
      "view_opts": {}
@@ -319,7 +314,7 @@
      "file": "docs/icf/ES26-063-DT-03 Footing Course and Block-and-Beam Bearings.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-DT-03.png",
-     "bytes": 132084,
+     "bytes": 132085,
      "number": "ES26-063-DT-03",
      "view": "stage-2",
      "view_opts": {}
@@ -330,7 +325,7 @@
      "file": "docs/icf/ES26-063-DT-04 Eaves Detail - Wall Plate on the ICF Core.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-DT-04.png",
-     "bytes": 102124,
+     "bytes": 102129,
      "number": "ES26-063-DT-04",
      "view": "stage-2",
      "view_opts": {}
@@ -341,7 +336,7 @@
      "file": "docs/icf/ES26-063-DT-05 Gable Verge and Vault Upstand.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-DT-05.png",
-     "bytes": 106544,
+     "bytes": 106549,
      "number": "ES26-063-DT-05",
      "view": "stage-2",
      "view_opts": {}
@@ -352,7 +347,7 @@
      "file": "docs/icf/ES26-063-DT-06 Chimney Stack Through the Roof.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-DT-06.png",
-     "bytes": 130968,
+     "bytes": 130979,
      "number": "ES26-063-DT-06",
      "view": "stage-2",
      "view_opts": {}
@@ -365,7 +360,7 @@
    "note": "The vaulted roof structure, oak trusses and steels, and the block and beam ground floor (coordination only).",
    "zip": {
     "file": "downloads/ES26-063 Roof and floor structure.zip",
-    "bytes": 127284,
+    "bytes": 127325,
     "count": 2
    },
    "docs": [
@@ -375,7 +370,7 @@
      "file": "docs/timber/ES26-063-FL-01 Ground Floor Structure.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-FL-01.png",
-     "bytes": 68978,
+     "bytes": 69003,
      "number": "ES26-063-FL-01",
      "view": "stage-1",
      "view_opts": {}
@@ -386,7 +381,7 @@
      "file": "docs/timber/ES26-063-RF-01 Vaulted Roof Structure.pdf",
      "pages": 1,
      "thumb": "thumbs/ES26-063-RF-01.png",
-     "bytes": 89546,
+     "bytes": 89579,
      "number": "ES26-063-RF-01",
      "view": "stage-4",
      "view_opts": {}
@@ -399,7 +394,7 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/ES26-063 Langley Lane Farm, Langley Lane, Middleton M24 5LJ - Quotation.zip",
-  "bytes": 2641064,
+  "bytes": 1980177,
   "count": 19,
   "title": "Download everything"
  }
