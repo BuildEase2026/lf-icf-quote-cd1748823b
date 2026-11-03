@@ -281,7 +281,7 @@ function render(name) {
     span.set(r1 + "," + c1, [r2 - r1 + 1, c2 - c1 + 1]);
     for (let r = r1; r <= r2; r++) for (let c = c1; c <= c2; c++) if (r !== r1 || c !== c1) cover.set(r + "," + c, 1);
   }
-  const shownRows = new Set(s.rows);
+  const shownRows = new Set(s.rows), spill = new Set();
   let h = `<colgroup><col style="width:42px">${cols.map(w => `<col style="width:${w}px">`).join("")}</colgroup>`;
   h += `<thead><tr><th class="rn"></th>${cols.map((w, i) => `<th${w ? "" : ' style="display:none"'}>${colName(i + 1)}</th>`).join("")}</tr></thead><tbody>`;
   for (const r of s.rows) {
@@ -291,11 +291,19 @@ function render(name) {
     h += `<tr${ht ? ` style="height:${ht}px"` : ""}><th class="rn">${r}</th>`;
     for (let c = 1; c <= cols.length; c++) {
       const k = r + "," + c;
-      if (cover.has(k)) continue;
+      if (cover.has(k) || spill.has(k)) continue;
       const cell = s.cells[k], sp = span.get(k);
       let rs = 1, cs = 1;
       if (sp) { cs = sp[1]; rs = 1; for (let rr = r + 1; rr < r + sp[0]; rr++) if (shownRows.has(rr)) rs++; }
       const st = cell ? M.styles[cell[2]] : {};
+      // Excel overflow (ES26-088 03.11): unwrapped text runs on over EMPTY cells to its right instead of clipping at its column
+      if (!sp && cell && !cell[1] && !cell[3] && typeof cell[0] === "string" && !st.wr) {
+        while (c + cs <= cols.length) {
+          const nk = r + "," + (c + cs), nc = s.cells[nk];
+          if (cover.has(nk) || span.has(nk) || (nc && (nc[1] || nc[3] || (nc[0] !== null && nc[0] !== "")))) break;
+          spill.add(nk); cs++;
+        }
+      }
       const css = styleCss(st) + (cols[c - 1] ? "" : ";display:none");
       const cls = [];
       if (cell && cell[3]) cls.push("inp");
@@ -306,7 +314,9 @@ function render(name) {
     h += "</tr>";
   }
   h += "</tbody>";
-  document.getElementById("grid").innerHTML = h;
+  const grid = document.getElementById("grid");
+  grid.style.width = (42 + cols.reduce((a, w) => a + w, 0)) + "px";   // table-layout:fixed only holds the column widths with a set table width
+  grid.innerHTML = h;
   paint();
   try { localStorage.setItem(STORE + ":tab", name); } catch (e) {}
 }
